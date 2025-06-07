@@ -1,5 +1,5 @@
-# Logs
-logs
+# === Log files ===
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,25 +7,29 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependency directories
+# === Dependency directories ===
 node_modules/
-
-# Build output
 dist/
 dist-ssr/
 
-# Local environment files
+# === Local environment files ===
 *.local
+.env
+.env.*
 
-# Editor settings (optional)
-.vscode/*
+# === IDE and Editor folders ===
+.vscode/
 !.vscode/extensions.json
 .idea/
 .DS_Store
+Thumbs.db
 
-# Windows / Visual Studio specific
+# === Visual Studio project files ===
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+# === Swap files ===
+*.swp
+*.swo
